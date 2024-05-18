@@ -16,3 +16,12 @@
  @tailwind base;
  @tailwind components;
  @tailwind utilities;
+
+ @font-face {
+  font-family: "Space_Grotesk";
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("/app/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+}
